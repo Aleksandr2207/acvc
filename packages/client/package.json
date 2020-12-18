@@ -1,0 +1,47 @@
+{
+    "name": "client",
+    "version": "0.0.0",
+    "description": "> TODO: description",
+    "author": "sirse <artiom.tretjakovas2@gmail.com>",
+    "homepage": "https://github.com/Aleksandr2207/acvc#readme",
+    "license": "MIT",
+    "main": "src/index.ts",
+    "directories": {
+        "lib": "lib",
+        "test": "__tests__"
+    },
+    "files": [
+        "lib"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Aleksandr2207/acvc.git"
+    },
+    "scripts": {
+        "start": "next dev",
+        "build": "next build",
+        "test": "echo \"Error: run tests from root\" && exit 1",
+        "gen": "graphql-codegen --config codegen.yml"
+    },
+    "bugs": {
+        "url": "https://github.com/Aleksandr2207/acvc/issues"
+    },
+    "dependencies": {
+        "@material-ui/core": "^4.11.2",
+        "@urql/exchange-graphcache": "^3.3.3",
+        "graphql": "^15.4.0",
+        "next": "^10.0.3",
+        "next-urql": "^2.1.1",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-is": "^17.0.1",
+        "urql": "^1.11.4"
+    },
+    "devDependencies": {
+        "@graphql-codegen/cli": "1.19.4",
+        "@graphql-codegen/typescript": "1.19.0",
+        "@graphql-codegen/typescript-operations": "1.17.12",
+        "@graphql-codegen/typescript-urql": "^2.0.3",
+        "typescript": "^4.1.3"
+    }
+}
