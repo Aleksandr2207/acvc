@@ -1,11 +1,6 @@
 # `server`
 
-> TODO: description
+This is server package of acvc
+# LICENSE
 
-## Usage
-
-```
-const server = require('server');
-
-// TODO: DEMONSTRATE API
-```
+MIT, Aleksandr Bogdanov.
