@@ -1,11 +1,3 @@
 # `server`
 
-> TODO: description
-
-## Usage
-
-```
-const server = require('server');
-
-// TODO: DEMONSTRATE API
-```
+This is server package of acvc
