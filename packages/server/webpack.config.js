@@ -26,7 +26,7 @@ module.exports = (env, args) => {
         },
         externals: [
             nodeExternals({
-                whitelist: isProduction ? undefined : ["webpack/hot/poll?1000"],
+                allowlist: isProduction ? undefined : ["webpack/hot/poll?1000"],
             }),
         ],
         optimization: {
